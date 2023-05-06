@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en" lang="en">
+
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!--CSS-->
+    <link href="../../css/sidebar.css" rel="stylesheet" type="text/css" />
+    <link href="../../css/topbar.css" rel="stylesheet" type="text/css" />
+    <link href="../../css/main.css" rel="stylesheet" type="text/css" />
+    <link href="../../css/main_content.css" rel="stylesheet" type="text/css" />
+    <link href="../../css/foot.css" rel="stylesheet" type="text/css" />
+    <link href="../../css/responsive.css" rel="stylesheet" type="text/css" />
+
+    <!--FONTS-->
+
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" />
+    <title>Men's sweatshirt</title>
+    <link rel="icon" type="image/x-icon" href="../../images/icon.ico" />
+</head>
+
+<body>
+    <div id="header-tag">
+        <a href="../index.html" target="_self"><img id="logo_img" src="../../images/logo.jpg" alt="logo" /></a>
+        <div class="dropdown" id="catogories">
+            <button id="men" class="dropbtn">Men</button>
+            <div id="men" class="dropdown-content">
+                <a href="jeans.html">Jeans</a>
+                <a href="sneakers.html">Sneakers</a>
+                <a href="sweatshirt.html">Sweatshirt</a>
+                <a href="tr.html">Trackpants</a>
+                <a href="tshirts.html">T-Shirts</a>
+            </div>
+        </div>
+        <div class="dropdown" id="catogories">
+            <button id="women" class="dropbtn">Women</button>
+            <div id="women" class="dropdown-content">
+                <a href="../women/bw.html">Bottomwear</a>
+                <a href="../women/dresses.html">Dresses</a>
+                <a href="../women/footwear.html">Footwear</a>
+                <a href="../women/k.html">Kurtas</a>
+                <a href="../women/tops.html">Tops</a>
+            </div>
+        </div>
+        <div class="dropdown" id="catogories">
+            <button id="kids" class="dropbtn">Kids</button>
+            <div id="kids" class="dropdown-content">
+                <a href="../kids/bottomwear.html">Bottomwear</a>
+                <a href="../kids/jeans.html">Jeans</a>
+                <a href="../kids/Nightwear.html">Nightwear</a>
+                <a href="../kids/T-shirts.html">T-Shirts</a>
+                <a href="../kids/sneakers.html">Sneakers</a>
+            </div>
+        </div>
+        <a href="../wishlist.html" id="wish"><img src="../../images/user.png" alt="" id="wishlist_icon" /><br />
+            Wishlist
+        </a>
+        <a href="../login.html" id="login_icon" style="margin-right: 0"
+            style="text-align: center; font-family: Montserrat"><img src="../../images/user.png" alt=""
+                id="login_image_icon" style="width: 25px; height: 25px" /><br />
+            Login
+        </a>
+
+        </a>
+        <input type="button" id="search" value="Search" style="width: 85px" />
+
+        <input type="text" id="search" placeholder="Search..." />
+    </div>
+
+    <p style="
+        margin-bottom: 10px;
+        margin-top: 60px;
+        font-family: Lato;
+        letter-spacing: 2px;
+        padding-left: 25px;
+        font-weight: bold;
+      ">
+        FILTERS
+    </p>
+
+    <div class="main-content">
+        <div id="sidebar">
+            <p id="catogories_heading">BRAND</p>
+
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
+                <label class="form-check-label" for="flexCheckDefault"> Adidas </label>
+                <br />
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
+                <label class="form-check-label" for="flexCheckDefault"> Fame forever by lifestyle </label>
+                <br />
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
+                <label class="form-check-label" for="flexCheckDefault"> Louis Philippe </label>
+                <br />
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
+                <label class="form-check-label" for="flexCheckDefault"> Nike </label>
+                <br />
+
+
+            </div>
+            <hr />
+            <p id="catogories_heading">PRICE</p>
+
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
+                <label class="form-check-label" for="flexCheckDefault">
+                    Rs.500 - Rs.1000
+                </label>
+                <br />
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
+                <label class="form-check-label" for="flexCheckDefault">
+                    Rs.1000 - Rs.1500
+                </label>
+                <br />
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
+                <label class="form-check-label" for="flexCheckDefault">
+                    Rs.1500 - Rs.2000
+                </label>
+                <br />
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
+                <label class="form-check-label" for="flexCheckDefault">
+                    Rs.2000 - Rs.2500
+                </label>
+            </div>
+            <hr />
+            <p id="catogories_heading">COLOR</p>
+
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
+                <!--
+          <div id="color-circle"></div>
+          -->
+
+                <label class="form-check-label1" for="flexCheckDefault">
+                    Red<span style="margin-left: 5px" class="badge bg-secondary">2</span>
+                </label>
+                <br />
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
+
+                <label class="form-check-label1" for="flexCheckDefault">
+                    Blue<span style="margin-left: 5px" class="badge bg-secondary">2</span>
+                </label>
+                <br />
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
+
+                <label class="form-check-label1" for="flexCheckDefault">
+                    Black<span style="margin-left: 5px" class="badge bg-secondary">4</span>
+                </label>
+                <br />
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
+
+                <label class="form-check-label1" for="flexCheckDefault">
+                    White<span style="margin-left: 5px" class="badge bg-secondary">2</span>
+                </label>
+                <br />
+
+            </div>
+            <hr />
+        </div>
+        <div id="content">
+            <table>
+                <tr>
+                    <td style="padding-left: 0">
+                        <a href="../dress.html">
+                            <img src="../../images/SWEATSHIRTS FOR MEN/puma red graphics sweatshirts.jpg" />
+                            <p id="dress-name">PUMA</p>
+
+                            <p id="description">Red Graphics Sweatshirt</p>
+                            <p id="price">Rs. 2399</p>
+                        </a>
+                    </td>
+                    <td>
+                        <a href="../dress.html">
+                            <img src="../../images/SWEATSHIRTS FOR MEN/puma black sweatshirts.jpg" />
+                            <p id="dress-name">PUMA</p>
+
+                            <p id="description">Sweatshirt with Hood</p>
+                            <p id="price">Rs. 1899</p>
+                        </a>
+                    </td>
+                    <td>
+                        <a href="../dress.html">
+                            <img src="../../images/SWEATSHIRTS FOR MEN/adidas(2).jpg" />
+                            <p id="dress-name">Adidas</p>
+
+                            <p id="description">Black Solid Hooded Sweatshirt</p>
+                            <p id="price">Rs. 2499</p>
+                        </a>
+                    </td>
+                    <td>
+                        <a href="../dress.html">
+                            <img src="../../images/SWEATSHIRTS FOR MEN/fame forever sweatshirts.jpg" />
+                            <p id="dress-name">Fame forever by lifestyle</p>
+
+                            <p id="description">Cotton Blue Sweatshirt </p>
+                            <p id="price">Rs. 1499</p>
+                        </a>
+                    </td>
+                    <td>
+                        <a href="../dress.html">
+                            <img src="../../images/SWEATSHIRTS FOR MEN/ls(1).jpg" />
+                            <p id="dress-name">Louis Philippe</p>
+
+                            <p id="description">White Printed Sweatshirt</p>
+                            <p id="price">Rs. 1999</p>
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="padding-left: 0">
+                        <a href="../dress.html">
+                            <img src="../../images/SWEATSHIRTS FOR MEN/puma red graphics sweatshirts.jpg" />
+                            <p id="dress-name">PUMA</p>
+
+                            <p id="description">Red Graphics Sweatshirt</p>
+                            <p id="price">Rs. 2399</p>
+                        </a>
+                    </td>
+                    <td>
+                        <a href="../dress.html">
+                            <img src="../../images/SWEATSHIRTS FOR MEN/puma black sweatshirts.jpg" />
+                            <p id="dress-name">PUMA</p>
+
+                            <p id="description">Sweatshirt with Hood</p>
+                            <p id="price">Rs. 1899</p>
+                        </a>
+                    </td>
+                    <td>
+                        <a href="../dress.html">
+                            <img src="../../images/SWEATSHIRTS FOR MEN/adidas(2).jpg" />
+                            <p id="dress-name">Adidas</p>
+
+                            <p id="description">Black Solid Hooded Sweatshirt</p>
+                            <p id="price">Rs. 2499</p>
+                        </a>
+                    </td>
+                    <td>
+                        <a href="../dress.html">
+                            <img src="../../images/SWEATSHIRTS FOR MEN/fame forever sweatshirts.jpg" />
+                            <p id="dress-name">Fame forever by lifestyle</p>
+
+                            <p id="description">Cotton Blue Sweatshirt </p>
+                            <p id="price">Rs. 1499</p>
+                        </a>
+                    </td>
+                    <td>
+                        <a href="../dress.html">
+                            <img src="../../images/SWEATSHIRTS FOR MEN/ls(1).jpg" />
+                            <p id="dress-name">Louis Philippe</p>
+
+                            <p id="description">White Printed Sweatshirt</p>
+                            <p id="price">Rs. 1999</p>
+
+                        </a>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <footer class="bg-light text-center text-lg-start">
+        <hr />
+        <div class="container py-1">
+            <div class="row1">
+                <p>Team 9</p>
+                <a href="../resume/aishwarya.html" id="drop" title="Resume">Aishwarya B Nair <span id="rollnumber">-
+                        AMENU4CSE21006</span></a>
+                <br />
+                <br />
+                <a href="../resume/akshara.html" id="drop" title="Resume">Akshara C <span id="rollnumber">-
+                        AMENU4CSE21007</span></a>
+                <br />
+                <br />
+                <a href="../resume/ananthu.html" id="drop" title="Resume">Ananthajith PR <span id="rollnumber">-
+                        AMENU4CSE21010</span></a>
+                <br />
+                <br />
+                <a href="../resume/rohith.html" id="drop" title="Resume">Rohith Krishnan <span id="rollnumber">-
+                        AMENU4CSE21049</span></a>
+                <br />
+                <br />
+            </div>
+        </div>
+<div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+            <p>Bored right now ? <a id="temp-text-value" title="TIC TAC TOE"  href="../../js_game/index.html">Play a game</a></p>
+            &copy 2022 Copyright:
+
+            <a class="text-dark" style='text-decoration:none' href="../index.html">Modiva</a>
+        </div>
+    </footer>
+    <script src="../../javascript/on_load.js"></script>
+    <script src="../../javascript/change_banner.js"></script>
+</body>
+
+</html>

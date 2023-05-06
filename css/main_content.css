@@ -1,0 +1,58 @@
+.main-content {
+  height: 1000px;
+  width: 100%;
+}
+
+#content {
+  width: 85%;
+  height: 1000px;
+  border: 0.1px solid #edebef;
+  padding: 20px;
+  float: right;
+  position: relative;
+}
+
+#content img {
+  width: 210px;
+  height: 280px;
+}
+
+.main-content td {
+  padding-left: 40px;
+  padding-bottom: 20px;
+}
+.main-content td:hover {
+  transform: scale(1.01);
+}
+.main-content td a {
+  text-decoration: none;
+  color: black;
+}
+.main-content td a:hover {
+  color: green;
+}
+#price {
+  font-family: Lato;
+  margin-top: 5px;
+  font-size: 12px;
+  margin: 0;
+  color: orange;
+}
+#description {
+  font-family: Lato;
+  font-size: 15x;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+#dress-name {
+  font-weight: bold;
+  font-family: Lato;
+  padding-top: 5px;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+.badge {
+  margin-left: 5px;
+  border-radius: 55px;
+  background-color: lightblue;
+}

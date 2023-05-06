@@ -1,0 +1,26 @@
+.gradient-custom-2 {
+	background: #e8fc90;
+
+	background: -webkit-linear-gradient(
+		to right,
+		#999900,
+		#808000,
+		#666600,
+		#4d4d00
+	);
+
+	background: linear-gradient(to right, #999900, #808000, #666600, #4d4d00);
+}
+
+input[type="email"],
+input[type="password"] {
+	width: 100%;
+	background: transparent;
+	border: none;
+	border-bottom: 1px solid #f1fff2;
+}
+
+::placeholder {
+	color: #f1fff2;
+	opacity: 0.5;
+}

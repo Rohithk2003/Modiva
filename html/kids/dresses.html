@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en" lang="en">
+
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!--CSS-->
+    <link href="../css/topbar.css" rel="stylesheet" type="text/css" />
+    <link href="../css/cloth.css" rel="stylesheet" type="text/css" />
+    <link href="../css/foot.css" rel="stylesheet" type="text/css" />
+    <link href="../../css/responsive.css" rel="stylesheet" type="text/css" />
+
+    <!--FONTS-->
+
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" />
+    <title>Catogory:Men</title>
+</head>
+
+<body>
+    <div id="header-tag">
+        <a href="index.html" target="_self"><img id="logo_img" src="../../images/logo.jpg" alt="logo" /></a>
+        <div class="dropdown" id="catogories">
+            <button id="men" onclick="loadhtml('women/bw.html')" class="dropbtn">
+                Men
+            </button>
+            <div id="men" class="dropdown-content">
+                <a href="women/bw.html">Bottomwear</a>
+                <a href="women/dresses.html">Dresses</a>
+                <a href="women/footwear.html">Footwear</a>
+                <a href="women/k.html">Kurtas</a>
+                <a href="women/tops.html">Tops</a>
+            </div>
+        </div>
+        <div class="dropdown" id="catogories">
+            <button id="women" onclick="loadhtml('women/bw.html')" class="dropbtn">
+                Women
+            </button>
+            <div id="women" class="dropdown-content">
+                <a href="women/bw.html">Bottomwear</a>
+                <a href="women/dresses.html">Dresses</a>
+                <a href="women/footwear.html">Footwear</a>
+                <a href="women/k.html">Kurtas</a>
+                <a href="women/tops.html">Tops</a>
+            </div>
+        </div>
+        <div class="dropdown" id="catogories">
+            <button id="kids" onclick="loadhtml('women/bw.html')" class="dropbtn">
+                Kids
+            </button>
+            <div id="kids" class="dropdown-content">
+                <a href="women/bw.html">Bottomwear</a>
+                <a href="women/dresses.html">Dresses</a>
+                <a href="women/footwear.html">Footwear</a>
+                <a href="women/k.html">Kurtas</a>
+                <a href="women/tops.html">Tops</a>
+            </div>
+        </div>
+        <a href="../wishlist.html" id="wish"><img src="../../images/user.png" alt="" id="wishlist_icon" /><br />
+            Wishlist
+        </a>
+        <a href="../login.html" id="login_icon" style="margin-right: 0"
+            style="text-align: center; font-family: Montserrat"><img src="../../images/user.png" alt=""
+                id="login_image_icon" style="width: 25px; height: 25px" /><br />
+            Login
+        </a>
+        <input type="button" id="search" value="Search" style="width: 85px" />
+
+        <input type="text" id="search" placeholder="Search..." />
+    </div>
+    <div id="displayer">
+        <div id="main-content">
+            <p id="location">
+                <a href="index.html" id="link_home">Home </a><a href="men.html" id="link_href">/ Clothing /
+                    <a href="men.html" id="link_href">Shirts for Men</a> / <b>Dress Name</b><br />
+            </p>
+            <table style="margin-left: 40px">
+                <tr>
+                    <td style="padding-left: 0">
+                        <img src="../images/img1.jpg" />
+                    </td>
+                    <td><img src="../images/img1.jpg" /></td>
+                </tr>
+                <tr>
+                    <td style="padding-left: 0">
+                        <img src="../images/img1.jpg" />
+                    </td>
+                    <td><img src="../images/img1.jpg" /></td>
+                </tr>
+            </table>
+        </div>
+        <div id="text">
+            <p id="dress" style="font-size: 25px">
+                <b>Nautica</b>
+            </p>
+            <p id="dress-description">Men Black Solid Pullover</p>
+            <hr />
+            <p id="price" style="font-size: 20px; color: red">Rs.1499</p>
+            <p style="color: orange; margin-top: 20px">SIZE CHART ></p>
+            <table>
+                <tr>
+                    <td id="check">
+                        <input style="float: left" type="checkbox" />
+                        <p id="size">S</p>
+                    </td>
+                    <td id="check">
+                        <input style="float: left" type="checkbox" />
+                        <p id="size">M</p>
+                    </td>
+                    <td id="check">
+                        <input style="float: left" type="checkbox" />
+                        <p id="size">L</p>
+                    </td>
+                    <td id="check">
+                        <input style="float: left" type="checkbox" />
+                        <p id="size">XL</p>
+                    </td>
+                </tr>
+            </table>
+            <button>ADD TO BAG</button>
+            <button style="position: relative; left: 20px">WISHLIST</button>
+            <br /><br />
+            <hr />
+            <p>Product Details</p>
+            <p>Product Description</p>
+            <hr />
+        </div>
+        <div id="related_dress">
+            <table style="margin-left: 22.5px">
+                <tr>
+                    <td style="
+                padding-left: 16px;
+                font-family: Lato;
+                font-weight: bold;
+
+                font-size: 20px;
+              ">
+                        Similar Products
+                    </td>
+                </tr>
+                <tr>
+                    <td style="padding-left: 16px">
+                        <div id="temp">
+                            <a href="dress.html">
+                                <img src="../images/img1.jpg" />
+                                <p id="dress-name">Dress Name</p>
+
+                                <p id="description">Dress description</p>
+                                <p id="price">Rs. 1499</p>
+                            </a>
+                        </div>
+                    </td>
+                    <td>
+                        <div id="temp">
+                            <a href="dress.html">
+                                <img src="../images/img1.jpg" />
+                                <p id="dress-name">Dress Name</p>
+
+                                <p id="description">Dress description</p>
+                                <p id="price">Rs. 1499</p>
+                            </a>
+                        </div>
+                    </td>
+                    <td>
+                        <div id="temp">
+                            <a href="dress.html">
+                                <img src="../images/img1.jpg" />
+                                <p id="dress-name">Dress Name</p>
+
+                                <p id="description">Dress description</p>
+                                <p id="price">Rs. 1499</p>
+                            </a>
+                        </div>
+                    </td>
+                    <td>
+                        <div id="temp">
+                            <a href="dress.html">
+                                <img src="../images/img1.jpg" />
+                                <p id="dress-name">Dress Name</p>
+
+                                <p id="description">Dress description</p>
+                                <p id="price">Rs. 1499</p>
+                            </a>
+                        </div>
+                    </td>
+                    <td>
+                        <div id="temp">
+                            <a href="dress.html">
+                                <img src="../images/img1.jpg" />
+                                <p id="dress-name">Dress Name</p>
+
+                                <p id="description">Dress description</p>
+                                <p id="price">Rs. 1499</p>
+                            </a>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="padding-left: 16px">
+                        <div id="temp">
+                            <a href="dress.html">
+                                <img src="../images/img1.jpg" />
+                                <p id="dress-name">Dress Name</p>
+
+                                <p id="description">Dress description</p>
+                                <p id="price">Rs. 1499</p>
+                            </a>
+                        </div>
+                    </td>
+                    <td>
+                        <div id="temp">
+                            <a href="dress.html">
+                                <img src="../images/img1.jpg" />
+                                <p id="dress-name">Dress Name</p>
+
+                                <p id="description">Dress description</p>
+                                <p id="price">Rs. 1499</p>
+                            </a>
+                        </div>
+                    </td>
+                    <td>
+                        <div id="temp">
+                            <a href="dress.html">
+                                <img src="../images/img1.jpg" />
+                                <p id="dress-name">Dress Name</p>
+
+                                <p id="description">Dress description</p>
+                                <p id="price">Rs. 1499</p>
+                            </a>
+                        </div>
+                    </td>
+                    <td>
+                        <div id="temp">
+                            <a href="dress.html">
+                                <img src="../images/img1.jpg" />
+                                <p id="dress-name">Dress Name</p>
+
+                                <p id="description">Dress description</p>
+                                <p id="price">Rs. 1499</p>
+                            </a>
+                        </div>
+                    </td>
+                    <td>
+                        <div id="temp">
+                            <a href="dress.html">
+                                <img src="../images/img1.jpg" />
+                                <p id="dress-name">Dress Name</p>
+
+                                <p id="description">Dress description</p>
+                                <p id="price">Rs. 1499</p>
+                            </a>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <footer class="bg-light text-center text-lg-start">
+        <hr />
+        <div class="container py-1">
+            <div class="row1">
+                <p>Team 9</p>
+                <a href="../resume/aishwarya.html" id="drop" title="Resume">Aishwarya B Nair <span id="rollnumber">-
+                        AMENU4CSE21006</span></a>
+                <br />
+                <br />
+                <a href="../resume/akshara.html" id="drop" title="Resume">Akshara C <span id="rollnumber">-
+                        AMENU4CSE21007</span></a>
+                <br />
+                <br />
+                <a href="../resume/ananthu.html" id="drop" title="Resume">Ananthajith PR <span id="rollnumber">-
+                        AMENU4CSE21010</span></a>
+                <br />
+                <br />
+                <a href="../resume/rohith.html" id="drop" title="Resume">Rohith Krishnan <span id="rollnumber">-
+                        AMENU4CSE21049</span></a>
+                <br />
+                <br />
+            </div>
+        </div>
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+            <p>Bored right now ? <a id="temp-text-value" title="TIC TAC TOE" href="../../js_game/index.html">Play a
+                    game</a></p>
+            &copy 2022 Copyright:
+
+            <a class="text-dark" style='text-decoration:none' href="../index.html">Modiva</a>
+        </div>
+    </footer>
+    <script src="../../javascript/on_load.js"></script>
+    <script src="../../javascript/change_banner.js"></script>
+</body>
+
+</html>

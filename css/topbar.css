@@ -1,0 +1,155 @@
+#header-tag {
+	width: 100%;
+	height: 90px;
+
+	background-color: #212429;
+}
+
+#logo_img {
+	margin-left: 20px;
+	margin-top: 10px;
+}
+
+#catogories {
+	text-decoration: none;
+	position: relative;
+	color: white;
+	padding-left: 0px;
+	margin-left: 40px;
+	font-family: Lato;
+	justify-content: space-between;
+	font-size: 20px;
+	top: 6px;
+}
+
+#search {
+	width: 300px;
+	position: relative;
+	margin-right: 0;
+	right: 30px;
+	padding: 5px;
+	border: 1px solid #000;
+	border-radius: 5px 5px 5px 5px;
+	float: right;
+	top: 32px;
+}
+#login_image {
+	position: relative;
+	left: 2px;
+}
+#wishlist_icon {
+	width: 25px;
+	height: 25px;
+
+	position: relative;
+	left: 9px;
+}
+#login_image_icon {
+	position: relative;
+	left: 2px;
+}
+#login_icon {
+	margin-right: 20px;
+	float: right;
+	padding-right: 40px;
+	margin-top: 10px;
+	font-size: 14px;
+	position: relative;
+	top: 18px;
+
+	text-decoration: none;
+	color: white;
+}
+#wish {
+	margin-right: 20px;
+	float: right;
+	padding-right: 40px;
+	margin-top: 10px;
+	font-size: 14px;
+	position: relative;
+	top: 18px;
+	text-decoration: none;
+	color: white;
+}
+.dropbtn {
+	background-color: inherit;
+	color: white;
+	height: 82px;
+	width: 70px;
+	border: none;
+	text-align: center;
+	font-size: 20px;
+}
+#women,
+#login-dropdown {
+	width: 95px;
+}
+.dropdown {
+	display: inline-block;
+}
+.dropdown-content {
+	display: none;
+	position: absolute;
+	color: black;
+	transition: all 0.5s;
+	padding: 10px;
+	min-width: 138px;
+	min-height: 190px;
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+	background-color: white;
+	z-index: 1;
+}
+#login_buttn {
+	border: 0;
+	background-color: #fff;
+	color: black;
+	transition: all 0.2s;
+	padding: 5px 2px;
+	font-weight: 500;
+	transition: all 0.5s;
+
+	font-family: Montserrat;
+	text-decoration: none;
+	display: block;
+	font-size: 15px;
+}
+.dropdown-content a {
+	color: black;
+	transition: all 0.2s;
+	padding: 5px 2px;
+	font-weight: 500;
+	transition: all 0.5s;
+
+	font-family: Montserrat;
+	text-decoration: none;
+	display: block;
+	font-size: 15px;
+}
+.dropdown-content a:hover {
+	color: #e5661e;
+	padding: 5px 2px;
+	transition: all 0.5s;
+	font-size: 18px;
+	font-weight: bold;
+	display: block;
+}
+.dropdown:hover .dropdown-content {
+	transition: all 0.5s;
+	display: block;
+}
+.dropdown:hover #women {
+	border-bottom: 3px solid #fb56c1;
+}
+.dropdown:hover #login-dropdown {
+	border-bottom: 3px solid darkgrey;
+}
+.dropdown:hover #men {
+	border-bottom: 3px solid #ee5f73;
+}
+.dropdown:hover #kids {
+	border-bottom: 3px solid green;
+}
+
+body {
+	font-family: Lato;
+}

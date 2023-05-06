@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en" lang="en">
+	<head>
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+		/>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+		<!--CSS-->
+		<link href="../css/topbar.css" rel="stylesheet" type="text/css" />
+		<link href="../css/foot.css" rel="stylesheet" type="text/css" />
+		<link href="../css/index.css" rel="stylesheet" type="text/css" />
+		<link href="../css/responsive.css" rel="stylesheet" type="text/css" />
+
+		<!--FONTS-->
+		<link
+			href="https://fonts.googleapis.com/css?family=Lato"
+			rel="stylesheet"
+		/>
+		<link
+			href="https://fonts.googleapis.com/css?family=Roboto"
+			rel="stylesheet"
+		/>
+		<link
+			href="https://fonts.googleapis.com/css?family=Montserrat"
+			rel="stylesheet"
+		/>
+		<title>
+			Online Shopping for Women, Men, Kids Fashion & Lifestyle - Modiva
+		</title>
+		<link rel="icon" type="image/x-icon" href="/images/icon.ico" />
+	</head>
+
+	<body onload="">
+		<div id="header-tag">
+			<a href="index.html" target="_self"
+				><img id="logo_img" src="../images/logo.jpg" alt="logo"
+			/></a>
+			<div class="dropdown" id="catogories">
+				<button id="men" class="dropbtn">Men</button>
+				<div id="men" class="dropdown-content">
+					<a href="men/jeans.html">Jeans</a>
+					<a href="men/sneakers.html">Sneakers</a>
+					<a href="men/sweatshirt.html">Sweatshirt</a>
+					<a href="men/tr.html">Trackpants</a>
+					<a href="men/tshirts.html">T-Shirts</a>
+				</div>
+			</div>
+			<div class="dropdown" id="catogories">
+				<button id="women" class="dropbtn">Women</button>
+				<div id="women" class="dropdown-content">
+					<a href="women/bw.html">Bottomwear</a>
+					<a href="women/dresses.html">Dresses</a>
+					<a href="women/footwear.html">Footwear</a>
+					<a href="women/k.html">Kurtas</a>
+					<a href="women/tops.html">Tops</a>
+				</div>
+			</div>
+			<div class="dropdown" id="catogories">
+				<button id="kids" class="dropbtn">Kids</button>
+				<div id="kids" class="dropdown-content">
+					<a href="kids/bottomwear.html">Bottomwear</a>
+					<a href="kids/jeans.html">Jeans</a>
+					<a href="kids/Nightwear.html">Nightwear</a>
+					<a href="kids/T-shirts.html">T-Shirts</a>
+					<a href="kids/sneakers.html">Sneakers</a>
+				</div>
+			</div>
+
+			<a href="wishlist.html" id="wish"
+				><img src="../../images/user.png" alt="" id="wishlist_icon" /><br />
+
+				Wishlist
+			</a>
+			<div class="dropdown" id="temp" style="float: right">
+				<a
+					href=""
+					id="login_icon"
+					class="dropbtn"
+					style="margin-right: 0"
+					style="text-align: center; font-family: Montserrat"
+					><img
+						src="../images/user.png"
+						alt=""
+						id="login_image_icon"
+						style="width: 25px; height: 25px"
+					/><br />
+					Login
+				</a>
+				<div
+					id="login-dropdown"
+					class="dropdown-content"
+					style="
+						margin-top: 90px;
+						margin-right: 30px;
+						padding: 5px;
+						min-width: 78px;
+						min-height: 50px;
+					"
+				>
+					<a
+						href="login.html"
+						style="
+							transition: none;
+							font-size: 15px !important;
+							color: black !important;
+							font-weight: 1 !important;
+						"
+						>Login</a
+					>
+
+					<button id="login_buttn" onclick="logout()">Logout</button>
+					<a
+						href="register.html"
+						style="
+							transition: none;
+							font-size: 15px !important;
+							color: black !important;
+							font-weight: 1 !important;
+						"
+						>Register</a
+					>
+				</div>
+			</div>
+
+			<input type="button" id="search" value="Search" style="width: 85px" />
+
+			<input type="text" id="search" placeholder="Search..." />
+		</div>
+		<div id="container">
+			<a href="men/jeans.html"
+				><img
+					style="position: relative"
+					id="banner"
+					src="../images/main_banner.jpg"
+				/>
+			</a>
+			<br />
+			<div class="btn_div">
+				<table>
+					<tr>
+						<td>
+							<button
+								style="margin-left: 40px"
+								onclick="change_image(0)"
+								id="move_banner_btn"
+								style="width: -10px"
+							></button>
+						</td>
+						<td>
+							<button onclick="change_image(1)" id="move_banner_btn"></button>
+						</td>
+						<td>
+							<button onclick="change_image(2)" id="move_banner_btn"></button>
+						</td>
+					</tr>
+				</table>
+			</div>
+			<br /><br /><br />
+			<p>DEAL OF THE DAY</p>
+			<a href="men/jeans.html">
+				<img id="banner" src="../images/deal_banner.png" /></a
+			><br />
+			<br />
+			<p style="padding-top: 70px">BEST OF MODIVA EXCLUSIVE BRANDS</p>
+			<img id="banner" src="../images/best_banner.png" /><br />
+
+			<img
+				style="width: 100%"
+				src="../images/banner.png"
+				alt="footwear-banner"
+				id="banner"
+			/>
+		</div>
+		<footer class="bg-light text-center text-lg-start">
+			<hr />
+			<div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+				<p>
+					Bored right now ?
+					<a
+						id="temp-text-value"
+						title="TIC TAC TOE"
+						href="../js_game/index.html"
+						>Play a game</a
+					>
+				</p>
+				&copy 2022 Copyright:
+
+				<a class="text-dark" style="text-decoration: none" href="index.html"
+					>Modiva</a
+				>
+			</div>
+		</footer>
+		<script src="../javascript/on_load.js"></script>
+		<script src="../javascript/change_banner.js"></script>
+	</body>
+</html>
